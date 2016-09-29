@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css" /> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+	<title>
+		Morgan Sliman's Portfolio
+	</title>
+	
+</head>
+<body>
+
+	<header>
+		<a href="index.html">
+			<h1 id="myName">
+				Morgan Sliman
+			</h1>
+		</a>
+
+		<nav>
+			<a href="index.html">About</a> |
+			<a href="portfolio.html">Portfolio</a> |
+			<a href="contact.html">Contact</a>
+		</nav>
+	</header>
+
+	<section class="mainContent">
+		<div id="main-wrapper">
+			<aside class="socialMenu">
+				<div id="social-wrapper">
+					<h3 id="socialText">
+						Connect with Me
+					</h3>
+
+					<hr />
+					<br />
+			
+					<div id="icon-wrapper">
+						<a href="https://github.com/morgansliman" target="_blank">
+							<img alt="Github Icon" id="githubIcon" src="assets/images/github-trimmed.png" />
+						</a>
+						<a href="https://www.linkedin.com/in/morgansliman" target="_blank">
+							<img alt="LinkedIn Icon" id="linkedinIcon" src="assets/images/linkedin-trimmed.png" />
+						</a>
+						<a href="http://stackoverflow.com/users/5901438/user5901438?tab=topactivity" target="_blank">
+							<img alt="Stack Overflow Icon" id="overflowIcon" src="assets/images/overflow.png" />
+						</a>
+					</div>
+				</div>
+			</aside>
+
+			<div id="wrapper">
+				<h1 id="contact">
+					Contact
+				</h1>
+
+				<hr id="mainBreak" />
+				<br />
+		
+				<form id="form_id">
+					Name<br>
+					<input onfocus="if(this.value == 'John Smith') {this.value='';}" id="name-field" type="name" name="name" value="John Smith"><br>
+					Email<br>
+					<input onfocus="if(this.value == 'example@gmail.com') {this.value='';}" id="email-field" type="email" name="email" value="example@gmail.com"><br>
+					Message<br>
+					<textarea id="message-field" name="message" rows="10" cols="30"></textarea><br>
+					<input type="submit" value="Submit" id="submit_button">
+				</form>
+			</div>
+		</div>
+		<div class="push"></div>
+	</section>
+
+	<footer>
+		<p id="copyright">
+			&copy; Copyright 2016 Morgan Sliman
+		</p>
+	</footer>
+
+</body>
+</html>

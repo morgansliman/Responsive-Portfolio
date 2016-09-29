@@ -1,0 +1,258 @@
+h1, h2, h3 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+body {
+	margin: 0;
+}
+
+p, a, form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: right;
+	padding-left: 10px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header {
+	border-bottom: 2px solid #cccccc;
+}
+
+nav {
+	position: absolute;
+	right: 180px;
+	top: 35px;
+	color: #777777;
+	word-spacing: 10px;
+}
+
+#myName {
+	background-color: #4aaaa5;
+	color: white;
+	margin: 0px 820px 0px 160px;
+	padding: 20px;
+}
+
+aside {
+	width: 270px;
+	height: 200px;
+	float: right;
+	background: #ffffff;
+	border: 2px solid #dddddd; 
+}
+
+div#social-wrapper {
+	position: relative;
+	left: 19%;
+	top: 8%;
+}
+
+aside hr {
+	width: 184px;
+	position: relative;
+	left: -51px;
+	color: #dddddd;
+	border-style: solid;
+	opacity: 0.6;
+}
+
+#socialText {
+	margin-left: -7px !important;
+	padding-bottom: 4px;
+}
+
+#githubIcon, #linkedinIcon, #overflowIcon {
+	height: 55px;
+	width: 55px;
+	margin: 0 5px;
+}
+
+#icon-wrapper {
+	margin-right: 10px;
+	position: relative;
+	right: 15px;
+}
+
+#icon-wrapper a {
+	text-decoration: none;
+}
+
+#aboutMe, #contact, #socialText, #portfolioText {
+	color: #4aaaa5;
+}
+
+#aboutMe, #mainPic, #bioText, #mainBreak, #contact, form, 
+#portfolioText {
+	margin-left: 30px;
+}
+
+#bioText {
+	word-wrap: break-word;
+	word-break: keep-all;
+	margin-right: 70px;
+	margin-top: -7px;
+	line-height: 200%;
+}
+
+#mainPic {
+	float: left;
+	margin-right: 20px;
+}
+
+#mainBreak {
+	color: #dddddd;
+	border-style: solid;
+	margin-right: 30px;
+}
+
+#main-wrapper {
+	width: 960px;
+	position: relative;
+	top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mainContent {
+	background-image: url("../images/background.png");
+	padding-bottom: 100px;
+}
+
+#wrapper {
+	width: 650px;
+	background-color: #ffffff;
+	position: relative;
+	border: 2px solid #dddddd; 
+}
+
+#mainPic {
+	width: 150px;
+	height: 150px;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+textarea {
+	height: 25px;
+	width: 140px;
+	-webkit-transition: width 0.4s, height 0.4s;
+	transition: width 0.4s, height 0.4s;
+	transition-timing-function: ease-in-out;
+}
+
+textarea:focus {
+	width: 96%;
+	height: 96%;
+}
+
+input[type=name], input[type=email], textarea {
+	width: 140px;
+	box-sizing: border-box;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	margin: 8px 0;
+}
+
+input[type=name], input[type=email] {
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+input[type=name]:focus, input[type=email]:focus {
+	width: 96%;
+}
+
+#submit_button {
+	background-color: #4aaaa5;
+	border: none;
+	color: white;
+	padding: 8px 25px;
+	font-size: 14px;
+}
+
+#content-wrapper {
+	margin-top: 10px;
+	width: 590px;
+	position: relative;
+	left: 30px;
+}
+
+#content-wrapper div img, #content-wrapper div {
+	width: 280px;
+	height: 210px;
+}
+
+#content-wrapper div {
+	margin-bottom: 50px;
+}
+
+#content-wrapper div p {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 10px 0;
+}
+
+#hangman-wrapper {
+	float: left;
+	position: relative;
+}
+
+#rpg-game-wrapper {
+	float: right;
+	position: relative;
+}
+
+#trivia-game-wrapper {
+	float: left;
+	position: relative;
+}
+
+#info-wrapper {
+	float: right;
+	position: relative;
+}
+
+#rock-paper-scissors-wrapper {
+	clear: both;
+	position: relative;
+}
+
+footer, .push {
+	height: 78px;
+}
+
+footer {
+	line-height: 49px;
+	padding-bottom: 2px;
+	position: relative;
+	width: 100%;
+	padding: 10px 0;
+	background: #666666;
+	border-top: 8px solid #4aaaa5;	
+}
+
+footer p {
+	text-align: center;
+	color: white;
+}
