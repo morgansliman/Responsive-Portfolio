@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="UTF-8" />
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css" /> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
 	<title>
@@ -11,47 +12,28 @@
 
 </head>
 <body>
-	
 	<header>
-		<a href="index.html">
-			<h1 id="myName">
-				Morgan Sliman
-			</h1>
-		</a>
-
-		<nav>
-			<a href="index.html">About</a> |
-			<a href="portfolio.html">Portfolio</a> |
-			<a href="contact.html">Contact</a>
-		</nav>
+		<div class="row">
+			<div class="col-4 col-md-5 col-xs-12" id="name">
+				<h1>
+					Morgan Sliman
+				</h1>
+			</div>
+			<div class="col-8 col-md-7 col-xs-12" id="nav">
+				<nav>
+					<ul>
+						<li><a href="#">About</a></li> |
+						<li><a href="#">Portfolio</a></li> |
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</header>
-	
-	<section class="mainContent">
-		<div id="main-wrapper">
-			<aside class="socialMenu">
-				<div id="social-wrapper">
-					<h3 id="socialText">
-						Connect with Me
-					</h3>
 
-					<hr />
-					<br />
-			
-					<div id="icon-wrapper">
-						<a href="https://github.com/morgansliman" target="_blank">
-							<img alt="Github Icon" id="githubIcon" src="assets/images/github-trimmed.png" />
-						</a>
-						<a href="https://www.linkedin.com/in/morgansliman" target="_blank">
-							<img alt="LinkedIn Icon" id="linkedinIcon" src="assets/images/linkedin-trimmed.png" />
-						</a>
-						<a href="http://stackoverflow.com/users/5901438/user5901438?tab=topactivity" target="_blank">
-							<img alt="Stack Overflow Icon" id="overflowIcon" src="assets/images/overflow.png" />
-						</a>
-					</div>
-				</div>
-			</aside>
-		
-			<div id="wrapper">
+	<section class="container">
+		<div class="row main-content">
+			<div class="col-8 col-md-7 col-sm-12 main">
 				<h1 id="aboutMe">
 					About Me
 				</h1>
@@ -65,14 +47,48 @@
 				Nulla nunc nulla, tempor malesuada tincidunt eu, bibendum ut magna. Mauris ut euismod velit. Ut aliquet odio leo, elementum commodo neque rhoncus vel. Curabitur ante eros, suscipit vitae orci vitae, tristique condimentum magna. Pellentesque ultrices odio id velit iaculis, eu porta lacus vestibulum. Mauris hendrerit erat quis eros porttitor pellentesque. Nullam dapibus, risus non aliquam suscipit, nibh risus fermentum enim, ut hendrerit massa erat a urna. Morbi rutrum, augue et finibus placerat, elit diam tempor metus, in auctor nunc nisi eu sem. Integer ex nibh, pretium at tincidunt vitae, accumsan in neque. Suspendisse finibus lacinia justo, porta efficitur lorem scelerisque vitae. Nullam urna est, facilisis laoreet volutpat sed, ullamcorper vel leo. Duis at nisi tincidunt, convallis metus ac, pulvinar lacus. Sed commodo quam vel magna finibus, sit amet congue purus ornare. Nullam semper erat vitae purus aliquam posuere.
 				</p>
 			</div>
+
+			<div class="col-1 col-md-1 col-sm-0"></div>
+
+			<aside class="col-3 col-md-4 col-sm-12 main">
+				<div class="row side-row">
+					<div class="col-12 side">
+						<h3 id="socialText">
+							Connect with Me
+						</h3>
+					</div>
+				</div>
+
+				<hr />
+				<br />
+		
+				<div class="row side-row">
+					<div class="col-4 col-sm-1 col-xs-1 side side-icon">
+						<a href="https://github.com/morgansliman" target="_blank">
+							<img alt="Github Icon" id="githubIcon" src="assets/images/github-trimmed.png" />
+						</a>
+					</div>
+					<div class="col-4 col-sm-1 col-xs-1 side side-icon">
+						<a href="https://www.linkedin.com/in/morgansliman" target="_blank">
+							<img alt="LinkedIn Icon" id="linkedinIcon" src="assets/images/linkedin-trimmed.png" />
+						</a>
+					</div>
+					<div class="col-4 col-sm-1 col-xs-1 side side-icon">
+						<a href="http://stackoverflow.com/users/5901438/user5901438?tab=topactivity" target="_blank">
+							<img alt="Stack Overflow Icon" id="overflowIcon" src="assets/images/overflow.png" />
+						</a>
+					</div>
+				</div>
+			</aside>
 		</div>
-		<div class="push"></div>
 	</section>
 	
-	<footer>
-		<p id="copyright">
-			&copy; Copyright 2016 Morgan Sliman
-		</p>
+	<footer class="row">
+		<div class="col-12">
+			<p id="copyright">
+				&copy; Copyright 2016 Morgan Sliman
+			</p>
+		</div>
 	</footer>
 
 </body>
